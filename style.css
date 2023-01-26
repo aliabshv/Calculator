@@ -28,8 +28,11 @@ input[type="Number"]::-webkit-inner-spin-button,input[type="Number"]::-webkit-ou
 margin: 0;
 }
     
-
+/* .hsb:focus{
+    background-color: orange;
+ } */
 button{
+    text-shadow: 2px 2px 4px rgb(94, 87, 87);
     display: flex;
     justify-content: center;
     align-items: center;

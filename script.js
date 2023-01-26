@@ -35,6 +35,7 @@ buttonHsb.forEach((even) => {
     
   });
 });
+inp.value
 Ac.addEventListener("click",()=>{
     p1.innerHTML= " "
     p2.innerHTML= " "
