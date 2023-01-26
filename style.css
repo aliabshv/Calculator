@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calc{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input{
+    width: 290px;
+    height: 50px;
+    background-color: lightblue;
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: none;
+    /* padding-left: 15px; */
+    font-size: 25px;
+    
+}
+input[type="Number"]::-webkit-inner-spin-button,input[type="Number"]::-webkit-outer-spin-button{
+-webkit-appearance: none;
+margin: 0;
+}
+    
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    width: 62.5px;
+    height: 47px;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    font-weight: bolder;
+    border: 1px solid black;
+    
+}
+p{
+    display: none;
+}
+.nmbr{
+    background-color: rgba(128, 128, 128, 0.438);
+}
+.Ac{
+    background-color: red;
+    color: white;
+}
+.brbr{
+    background-color: blue;
+    color: white;
+}
